@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+color #C3E2C2, #EAECCC,#DBCC95,#CD8D7A
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #C3E2C2;
+    height: 4rem;
+    width: 100vw;
+    color:#d19577;
+    padding: 3%;
+    justify-content: space-between;
+    /* padding-bottom: 10%; */
+}
+.name{
+    position: relative;
+    left: -45px;
+    font-size: 220%;
+}
+.img_logo{
+    height: 150px;
+}
+button{
+padding: 2%;
+height: 2rem;
+width: 3rem;
+border-radius: 10px;
+font-weight: 700;
+border: none;
+font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(34, 68, 68, 0.34);
+    color:rgb(255, 255, 255);
+}
+.firstsection{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('booksbg.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: grid; */
+    /* place-items: center; */
+}
+.secondsection{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bgimg3.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: grid; */
+}
+.thirdsection{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bgimg6.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: grid; */
+}
